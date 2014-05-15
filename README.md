@@ -6,7 +6,7 @@ strain-amplitude-volume-fraction
 
 Resources related to strain amplitude volume fraction method for evaluating nitinol fatigue durability.
 
-1. **SMST_2014_Volume_Fraction.pdf** [Stain Amplitude Volume Fraction Method for Evaluation of Nitinol Fatigue Durability][https://asm.confex.com/asm/smst14/webprogram/Paper36277.html] presentation from SMST-2014 explaining the method, using the resources available here.
+1. **SMST_2014_Volume_Fraction.pdf** [Stain Amplitude Volume Fraction Method for Evaluation of Nitinol Fatigue Durability](https://asm.confex.com/asm/smst14/webprogram/Paper36277.html) presentation from SMST-2014 explaining the method, using the resources available here.
 
 2. **Step_By_Step_Volume_Fraction.pdf** Detailed explanation of the process used to generate volume fraction data from a set of metallographic cross section images.
 
