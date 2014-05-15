@@ -8,17 +8,19 @@ Resources related to strain amplitude volume fraction method for evaluating niti
 
 1. **SMST_2014_Volume_Fraction.pdf** Presentation from SMST-2014 explaining the method, using the resources available here.
 
-2. **Sample_Image.jpg** A sample metallographic cross section. The scale of this image is 500x. 250 pixels = 500 microns.
+2. **Step_By_Step_Volume_Fraction.pdf** Detailed explanation of the process used to generate volume fraction data from a set of metallographic cross section images.
 
-3. **Results_from_ImageJ_Particle_Analysis.txt** Results exported from ImageJ, after importing Sample_Image.jpg, applying a default threshold setting to isolate inclusions, and applying "analyze particles" to quantify the number of inclusions. ImageJ saves this data with a default extension of .XLS, but the format is actually just a tab deliniated text file.
+3. **Sample_Image.jpg** A sample metallographic cross section. The scale of this image is 500x. 250 pixels = 500 microns.
 
-4. **2014_Sample_Data.jmp** JMP data table containing the sample data from above, plus some additional columns to calculate area, volume, and histogram information. (JMP 10.0 http://jmp.com 30-day trial available)
+4. **Results_from_ImageJ_Particle_Analysis.txt** Results exported from ImageJ, after importing Sample_Image.jpg, applying a default threshold setting to isolate inclusions, and applying "analyze particles" to quantify the number of inclusions. ImageJ saves this data with a default extension of .XLS, but the format is actually just a tab deliniated text file.
 
-5. **SMST_2014_data.xlsx** All of the raw data, summary tables, calculations, and charts included in the presentation. Includes both the material analysis, and strain amplitude data from the FEA example.
+5. **2014_Sample_Data.jmp** JMP data table containing the sample data from above, plus some additional columns to calculate area, volume, and histogram information. (JMP 10.0 http://jmp.com 30-day trial available)
 
-6. **Abaqus_6.12-1_Example.inp** Abaqus input deck used to generatre the FEA sample data used in the presentation. 
+6. **SMST_2014_data.xlsx** All of the raw data, summary tables, calculations, and charts included in the presentation. Includes both the material analysis, and strain amplitude data from the FEA example.
 
-7. **ivol.py** Python script using Abaqus API's to detect and measure regions of the model having a strain amplitude exceeding a specified threshold.
+7. **Abaqus_6.12-1_Example.inp** Abaqus input deck used to generatre the FEA sample data used in the presentation. 
+
+8. **ivol.py** Python script using Abaqus API's to detect and measure regions of the model having a strain amplitude exceeding a specified threshold.
 
 CREDIT
 ------
